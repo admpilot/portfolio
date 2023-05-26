@@ -57,8 +57,8 @@ header nav#large_menu {
     top:0px;
     background-color:cadetblue;
     height:100%;
-    width:30%;
-    padding-left:2rem;
+    width:25%;
+    padding-left:1.5rem;
     transition: width 0.5s;
 }
 
@@ -67,7 +67,7 @@ header nav img#small_menu_img {
     display:none;
     position:absolute;
     bottom:0px;
-    width:50px;
+    width:3.5rem;
     padding-bottom:1rem;
 }
 

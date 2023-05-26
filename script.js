@@ -20,8 +20,6 @@ function makeSmallMenu(event){
             docBannerSpan[i].style.fontSize='2rem';
             docBannerSpan[i].style.position='initial';
         }
-        //docHeader.style.paddingTop=`${pageRem*13}px`;
-        
         document.removeEventListener('scroll', makeSmallMenu);
         document.addEventListener('scroll', makeBigMenu);
     }
@@ -41,7 +39,7 @@ function makeBigMenu(event){
         docBannerSpan[0].style.fontSize='7rem';
         docBannerSpan[1].style.fontSize='4rem';
         docBannerSpan[2].style.fontSize='5rem';
-        
+
         //docHeader.style.paddingTop = '0px';
         docHeader.style.position="relative";
         docHeader.style.top = '0rem';
