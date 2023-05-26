@@ -96,7 +96,7 @@ main {
 
 section#about {
     display: flex;
-    gap:50px;
+    gap:1rem;
     font-size:3rem;
     align-items:center;
     margin-top:50px;
