@@ -33,7 +33,7 @@ function makeBigMenu(event){
         let docMain = document.querySelector('main');
         let docBannerSpan = document.getElementsByClassName('banner_span');
         document.getElementById('large_menu_ul').style.display='block';
-        document.getElementById('large_menu').style.width='30%';
+        document.getElementById('large_menu').style.width='25%';
         document.getElementById('small_menu_img').style.display='none';
         docHeader.style.boxShadow='0px 0px 0px 0px';
         docBannerSpan[0].style.fontSize='7rem';
