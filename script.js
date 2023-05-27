@@ -35,7 +35,7 @@ function makeBigMenu(event){
         document.getElementById('large_menu_ul').style.display='block';
         document.getElementById('large_menu').style.width='25%';
         document.getElementById('small_menu_img').style.display='none';
-        docHeader.style.boxShadow='0px 0px 0px 0px';
+        docHeader.style.boxShadow='0px -25px 50px 0px';
         docBannerSpan[0].style.fontSize='7rem';
         docBannerSpan[1].style.fontSize='4rem';
         docBannerSpan[2].style.fontSize='5rem';
