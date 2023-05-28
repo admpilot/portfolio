@@ -111,7 +111,7 @@ section.about.right{
     /* align-items: center; */
     margin-top:0px;
     padding:0px 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 section.about.right.badges {
@@ -141,14 +141,14 @@ span {
 section#projects{
     display:flex;
     font-size:3rem;
-    margin-top:50px;
+    margin-top:3rem;
 
 }
 
 section#contact {
     display:flex;
     font-size:3rem;
-    margin-top:50px;
+    margin-top:3rem;
 }
 
 @media only screen and (max-width:1200px){
