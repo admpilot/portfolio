@@ -99,7 +99,7 @@ section#about {
     display: flex;
     gap:1rem;
     font-size:3rem;
-    align-items:center;
+    /* align-items:center; */
     margin-top:3rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -111,12 +111,13 @@ section.about.right{
     /* align-items: center; */
     margin-top:0px;
     padding:0px 2rem;
+    justify-content: space-between;
 }
 
 section.about.right.badges {
     display:flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top:10px;
     
 }
