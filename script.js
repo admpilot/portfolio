@@ -14,7 +14,7 @@ function makeSmallMenu(event){
         docHeader.style.height="4rem";
         docHeader.style.position="fixed";
         docMain.style.paddingTop="18rem";
-        docHeader.style.boxShadow='0px 0px 10px 1px';
+        docHeader.style.boxShadow='0px -25px 50px 0px';
         for (let i = 0; i < docBannerSpan.length; i++)
         {
             docBannerSpan[i].style.fontSize='2rem';
@@ -35,7 +35,7 @@ function makeBigMenu(event){
         document.getElementById('large_menu_ul').style.display='block';
         document.getElementById('large_menu').style.width='25%';
         document.getElementById('small_menu_img').style.display='none';
-        docHeader.style.boxShadow='0px -25px 50px 0px';
+        docHeader.style.boxShadow='0px 0px 0px 0px';
         docBannerSpan[0].style.fontSize='7rem';
         docBannerSpan[1].style.fontSize='4rem';
         docBannerSpan[2].style.fontSize='5rem';
