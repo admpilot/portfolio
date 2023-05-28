@@ -87,6 +87,7 @@ ul a {
     font-size:3rem;
     text-align:right;
 }
+
 main {
     text-align: left;
     font-family:menlo;
@@ -100,6 +101,8 @@ section#about {
     font-size:3rem;
     align-items:center;
     margin-top:3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 section.about.right{
@@ -115,6 +118,7 @@ section.about.right.badges {
     flex-direction:row;
     justify-content: space-evenly;
     margin-top:10px;
+    
 }
 
 section.about.right.badges img {
@@ -126,7 +130,7 @@ section.about.right.badges img {
 img.portrait {
     min-width:20%;
     max-width:30%;
-    margin:0px 0px 0px 30px;
+    margin:0px 0px 0px 0px;
 }
 
 span {
