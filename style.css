@@ -129,6 +129,7 @@ section.about.right.badges img {
 }
 
 img.portrait {
+    align-self: center;
     min-width:20%;
     max-width:30%;
     margin:0px 0px 0px 0px;
